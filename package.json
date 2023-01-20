@@ -1,0 +1,17 @@
+{
+  "name": "clone-trello",
+  "version": "1.0.0",
+  "description": "clone trello for practising",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "repository": "https://github.com/CAROLMIRAB/clone-trello.git",
+  "author": "Carol Mirabal <carolmirabal27@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^6.4.1"
+  }
+}

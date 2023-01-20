@@ -1,13 +1,13 @@
 {
-  "name": "clone-trello",
+  "name": "server",
   "version": "1.0.0",
   "description": "trello clone with nodejs, express and  typescript",
   "main": "src/server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/index.js",
-    "dev": "tsc -w & nodemon dist/index.js",
-    "build": "rm -rf build/ && prettier --write source/ && tsc"
+    "start": "node build/server.js",
+    "dev": "tsc -w && nodemon build/server.js",
+    "build": "rm -rf build/ && prettier --write src/ && tsc"
   },
   "author": "Carol Mirabal",
   "license": "ISC",
